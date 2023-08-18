@@ -1,0 +1,6 @@
+.vscode
+
+*.lock
+data/rendered/
+
+.DS_Store

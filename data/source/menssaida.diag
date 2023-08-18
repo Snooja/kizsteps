@@ -1,0 +1,63 @@
+blockdiag {
+
+# Beginner - Beginner+ (green)
+
+"Men's Saidia" [color = '#90EE90'];
+"Men's Entrada" [color = '#90EE90'];
+"Ladies Saida" [color = '#90EE90'];
+"Virgula 90" [color = '#90EE90'];
+"Cha-Cha" [color = '#90EE90'];
+"Retrecesso" [color = '#90EE90'];
+"Right foot forwards" [color = '#90EE90'];
+"Right foot side" [color = '#90EE90'];
+"Strella" [color = '#90EE90'];
+"Open" [color = '#90EE90'];
+"Crusamento" [color = '#90EE90'];
+"Open 180 forwards w/ right arm flick" [color = '#90EE90'];
+
+# Improvers - Practioners (yellow)
+"Virgula 180" [color = '#FFF9A6'];
+"Quadradinha" [color = '#FFF9A6'];
+"Casamento" [color = '#FFF9A6'];
+"Casamento 180" [color = '#FFF9A6'];
+"Lateral" [color = '#FFF9A6'];
+"Open 180 forwards" [color = '#FFF9A6'];
+
+# Intermediate - Inter-Advanced (orange)
+"Ladies Shadow" [color = '#FFD580'];
+"Leg Lift" [color = '#FFD580'];
+"Leg Sweep" [color = '#FFD580'];
+
+# Advanced  (red)
+
+# Masters (black)
+
+"Men's Saidia" -> "Men's Entrada";
+"Men's Saidia" -> "Crusamento";
+"Men's Saidia" -> "Open 180 forwards";
+"Men's Saidia" -> "Casamento";
+"Men's Saidia" -> "Casamento 180";
+"Men's Saidia" -> "Lateral";
+"Men's Saidia" -> "Quadradinha";
+"Men's Saidia" -> "Leg Lift";
+"Men's Saidia" -> "Leg Sweep" -> "Other steps from leg sweep";
+"Leg Sweep" -> "Ladies Shadow";
+"Men's Saidia" -> "Crusamento";
+"Men's Saidia" -> "Open 180 forwards w/ right arm flick" -> "Ladies Shadow";
+"Men's Entrada" -> "Ladies Saida";
+"Men's Entrada" -> "Virgula 90";
+"Men's Entrada" -> "Virgula 180";
+"Men's Entrada" -> "Cha-Cha";
+"Men's Entrada" -> "Retrecesso";
+"Men's Entrada" -> "Right foot side";
+"Right foot side" -> "Open";
+"Right foot side" -> "Strella";
+"Men's Entrada" -> "Right foot forwards";
+"Right foot forwards" -> "Any forwards steps";
+"Right foot forwards" -> "Strella";
+
+# Legend
+"Beginner - Beginner+" [color = '#90EE90']; 
+"Improvers - Practioners" [color = '#FFF9A6'];
+"Intermediate - Inter-Advanced" [color = '#FFD580'];
+}
