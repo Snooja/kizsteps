@@ -1,0 +1,68 @@
+blockdiag {
+
+# Beginner - Beginner+ (green)
+
+"Men's Saida" [color = '#90EE90'];
+"Ladie's Saida" [color = '#90EE90'];
+"Cha-Cha" [color = '#90EE90'];
+"Retrecesso" [color = '#90EE90'];
+"Open" [color = '#90EE90'];
+"Ladie's Entrada" [color = '#90EE90'];
+
+# Improvers - Practioners (yellow)
+"Quadradinha" [color = '#FFF9A6'];
+"Crusamento" [color = '#FFF9A6'];
+"Casamento" [color = '#FFF9A6'];
+"Casamento 180" [color = '#FFF9A6'];
+"Open 90 right" [color = '#FFF9A6'];
+"Open 180 backwards" [color = '#FFF9A6'];
+"Lateral Forwards Left" [color = '#FFF9A6'];
+"Lateral Backwards Left" [color = '#FFF9A6'];
+"Lateral Backwards Right" [color = '#FFF9A6'];
+"Sacada" [color = '#FFF9A6'];
+"180" [color = '#FFF9A6'];
+"Leg Lift" [color = '#FFF9A6'];
+
+# Intermediate - Inter-Advanced (orange)
+"Ladies Shadow" [color = '#FFD580'];
+"Arm Flick" [color = '#FFD580'];
+"Touch" [color = '#FFD580'];
+"Contra Tempo" [color = '#FFD580'];
+"Crossover" [color = '#FFD580'];
+
+# Advanced  (red)
+
+# Masters (black)
+
+# Transitions
+
+"Ladie's Saida" -> "Open";
+"Ladie's Saida" -> "Open 90 right";
+"Ladie's Saida" -> "Open 180 backwards";
+"Open 180 backwards" -> "Arm Flick" -> "Ladies Shadow";
+"Ladie's Saida" -> "Cha-Cha";
+"Ladie's Saida" -> "Retrecesso";
+"Ladie's Saida" -> "Casamento";
+"Ladie's Saida" -> "Casamento 180";
+"Ladie's Saida" -> "180" 
+"180" -> "Quadradinha";
+"180" -> "Lateral Forwards Left";
+"180" -> "Sacada";
+"Ladie's Saida"  -> "Lateral Backwards Left";
+"Ladie's Saida" -> "Lateral Backwards Right";
+"Ladie's Saida" -> "Leg Lift";
+"Ladie's Saida" -> "Ladie's Entrada";
+"Ladie's Entrada" -> "Men's Saida";
+"Ladie's Saida" -> "Ladie's Entrada";
+"Ladie's Saida" -> "Contra Tempo";
+"Ladie's Saida" -> "Crossover";
+"Ladie's Saida" -> "Touch";
+"Touch" -> "Crusamento";
+
+
+
+# Legend
+"Beginner - Beginner+" [color = '#90EE90']; 
+"Improvers - Practioners" [color = '#FFF9A6'];
+"Intermediate - Inter-Advanced" [color = '#FFD580'];
+}
